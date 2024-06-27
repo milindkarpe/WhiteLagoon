@@ -1,10 +1,10 @@
 pipeline {
     agent any
     
-    tools {
+   // tools {
         // Install the .NET Core SDK
-        dotnet 'dotnet-sdk'
-    }
+   //     dotnet 'dotnet-sdk'
+   // }
 
     stages {
         stage('Checkout') {
